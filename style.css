@@ -15,7 +15,7 @@ main {
     min-height: 50vh;
     width: 100%;
     background-color: #fff;
-    padding-bottom: 1000px;
+    /* padding-bottom: 1000px; */
 }
 
 /* ------------//Navigation Setup--------------- */
@@ -491,6 +491,7 @@ footer {
     width: 80%;
     margin-top: 100px;
     border-top: 1px solid lightgray;
+    padding-bottom: 60px;
 }
 
 .footerSubLinkz {
@@ -508,16 +509,26 @@ footer {
     justify-content:flex-start;
     text-align: left;
     height: 150px;
+    margin-top: 40px;
 }
 
 .footerLinkz small {
-    margin-right: 40px;
     margin-bottom: 10px;
+}
+.footerLinkz small a {
+    margin-right: 60px;
+    
     color: #333333;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.footerLinkz small a:hover {
+    text-decoration: underline;
 }
 
 .footerLogo {
-    margin-top: -60px;
+    margin-top: -10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -535,4 +546,7 @@ footer {
     font-size: 12px;
     background-color: lightgray;
     color: #006CAA;
+    right: 70px;
+    position: absolute;
+    margin-top: 10px;
 }
