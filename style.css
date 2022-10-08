@@ -240,7 +240,7 @@ input {
 
 .resourceLinks {
     display: grid;
-    grid-template-columns: repeat(4, 200px) ;
+    grid-template-columns: repeat(4, 250px) ;
   
 }
 
@@ -260,5 +260,6 @@ input {
 
 .resourceLinks .fa-brands , .fa-solid{
     font-size: 30px;
+    margin-right: 20px;
 }
 
