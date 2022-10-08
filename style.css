@@ -148,6 +148,10 @@ input {
 /* ---------------------Social Links Section ----------------------- */
 .container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .container h4 {
     margin-top: 60px;
@@ -156,6 +160,30 @@ input {
     font-family: 'Roboto', sans-serif;
     color: #333333;
     font-weight: 400;
+}
+
+.container .lamp {
+    width: 20px;
+}
+
+.advert {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: end;
+    width: 70%;
+    margin-top: 40px;
+}
+
+.advert p {
+   text-align: end;
+   padding-right: 48px;
+}
+
+.advertImg{
+    padding-left: 50px;
+    width: 95%;
 }
 .socialLinks{
     display: flex;
@@ -241,7 +269,7 @@ input {
 .resourceLinks {
     display: grid;
     grid-template-columns: repeat(4, 250px) ;
-  
+    margin-bottom: 30px;
 }
 
 .resourceLinks p a{
@@ -254,6 +282,7 @@ input {
     display: inline-flex;
     justify-content: left;
     align-items: center;
+    text-align: start;
     margin-bottom: 20px;
 
 }
@@ -262,4 +291,123 @@ input {
     font-size: 30px;
     margin-right: 20px;
 }
+
+.resourceLinks .fa-vimeo {
+    color: rgb(25, 160, 238);
+}
+
+.resourceLinks .fa-vk {
+    color: rgb(25, 82, 238);
+}
+
+.resourceLinks .fa-square-odnoklassniki {
+    color: orange;
+}
+
+.resourceLinks .fa-soundcloud {
+    color: orange;
+}
+
+.resourceLinks .fa-tiktok {
+    color: black;
+}
+
+.resourceLinks .fa-globe {
+    color:#7ED214;
+}
+
+/* ------------------------User Guide Section --------------------------- */
+
+.userGuide {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.userGuide h1, .saveOnline h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 30px;
+}
+
+.userGuide p {
+    line-height: 30px;
+    font-size: 22px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/* -------------------------How to save Online---------------- */
+.saveOnline {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.saveOnlineContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaf1f5;
+    border-radius: 5px;
+}
+
+.saveOnline h1 {
+    font-size: 35px;
+}
+
+.saveRow{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+    
+}
+ .colspan1 p{
+    text-align: left;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.colspan1 {
+   width: 450px;
+    padding: 2%;
+}
+.colspan1 .saveImg {
+    width: 100%;
+    height: auto;
+}
+
+.colspan1 button {
+    height: 70px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #7ED214;
+    border: 0;
+    border-radius: 7px;
+}
+
+.colspan1 span {
+    text-decoration: underline;
+    color: #7ED214;
+}
+
+
+
+
+
+
 
