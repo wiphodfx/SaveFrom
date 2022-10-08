@@ -31,8 +31,7 @@ display: flex;
 
 .headeCover {
     border-bottom: 1px solid lightgray;
-    
-    width: 80%;
+    width: 90%;
 }
 .logo {
     flex: 0.7;
@@ -270,13 +269,14 @@ input {
     display: grid;
     grid-template-columns: repeat(4, 250px) ;
     margin-bottom: 30px;
+    margin-inline: 20px;
 }
 
 .resourceLinks p a{
     color:#000000;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    padding: 0 0 0 36px;
+    /* padding: 0 0 0 36px; */
     text-decoration: none;
     font-weight: 400;
     display: inline-flex;
@@ -289,7 +289,7 @@ input {
 
 .resourceLinks .fa-brands , .fa-solid{
     font-size: 30px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .resourceLinks .fa-vimeo {
@@ -348,6 +348,7 @@ input {
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    margin-bottom: 60PX;
 }
 .saveOnlineContainer {
     width: 100%;
@@ -369,7 +370,7 @@ input {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-
+    margin-top: 30px;
     
 }
  .colspan1 p{
@@ -377,6 +378,7 @@ input {
     font-size: 22px;
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
+    width: 300px;
 }
 
 .colspan1 {
@@ -406,8 +408,131 @@ input {
 }
 
 
+/* ------------------Quality Video Section--------------- */
+
+.qualityRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 60px;
+}
+
+
+.qualityCol h1 {
+    margin-bottom: 20px;
+}
+
+.qualityCol p {
+    line-height: 35px;
+    width: 380PX;
+    font-size: 18PX;
+}
+
+.qualityCol {
+    width: 420px;
+}
+
+.qualityCol img {
+    width: 100%;
+    height: auto;
+}
 
 
 
+/* -------------------Partners Section---------------- */
 
+.partnersColumn {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.partnersColumn h1 {
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.partnersLinks{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.partnersRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #9ad51b70;
+    padding: 20px 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.partnersRow img {
+    margin-right: 10px;
+    width: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 80%;
+    margin-top: 100px;
+    border-top: 1px solid lightgray;
+}
+
+.footerSubLinkz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    column-gap: 60px;
+}
+
+.footerLinkz {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    text-align: left;
+    height: 150px;
+}
+
+.footerLinkz small {
+    margin-right: 40px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.footerLogo {
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLogo img {
+    margin-bottom: 20px;
+}
+
+.country input {
+    width: 150px;
+    height: 25px;
+    border: 1px solid #000000;
+    font-size: 12px;
+    background-color: lightgray;
+    color: #006CAA;
+}
